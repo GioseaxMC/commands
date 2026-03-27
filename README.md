@@ -1,4 +1,4 @@
-sudo usermod -aG dialoud $USER
+sudo usermod -aG dialout $USER
 
 sudo virsh net-start default
 sudo virsh net-autostart default
